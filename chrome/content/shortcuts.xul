@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet href = "chrome://global/skin/" type = "text/css" ?>
+<?xml-stylesheet href = "chrome://encontreseupacote/skin/custom.css" type = "text/css" ?>
+<page id = "encontreseupacoteShortcuts" title = "Atalhos Encontre Seu Pacote"
+xmlns = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" >
+
+<vbox align="center">
+<description id="shortcuts" style="color:#BF6C13;text-align:justified;margin-top:5px">
+Para abrir o plugin use: CTRL+SHIFT+E
+</description>
+<description id="shortcuts" style="color:#BF6C13;text-align:justified;">
+Ou no Mac, use: COMMAND+SHIFT+E
+</description>
+<description id="shortcuts" style="color:#BF6C13;text-decoration:bold;text-align:justified;margin-top:10px">
+Com a tab lateral aberta, use:
+</description>
+<description id="shortcuts" style="color:#BF6C13;text-align:justified;">
+buscar: CTRL+B, limpar: CTRL+L
+</description>
+</vbox>
+</page>

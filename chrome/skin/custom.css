@@ -1,0 +1,29 @@
+.present_cell {
+	color:blue;
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+.outgoing_cell {
+	color:#BF6C13;
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+.current_cell {
+	color:green;
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+.default_cell {
+	color:black;
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+.status_cell {
+	color:red;
+    font-weight:bold;
+    font-size:0.8em;
+}

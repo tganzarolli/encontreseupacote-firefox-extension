@@ -1,0 +1,6 @@
+content encontreseupacote chrome/content/
+skin encontreseupacote skin chrome/skin/
+locale	encontreseupacote	en-US	chrome/locale/en-US/
+locale	encontreseupacote	pt-BR	chrome/locale/en-US/
+overlay	chrome://browser/content/browser.xul	chrome://encontreseupacote/content/firefoxOverlay.xul
+

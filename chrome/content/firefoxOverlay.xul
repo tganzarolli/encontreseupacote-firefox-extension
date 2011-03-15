@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://encontreseupacote/skin/overlay.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://encontreseupacote/locale/encontreseupacotesidebar.dtd">
+
+
+	
+<overlay id="encontreseupacoteSideBarOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://encontreseupacote/content/helperOverlay.js"/>
+  
+  <menupopup id="viewencontreseupacoteSideBar">
+    <menuitem key="key_openencontreseupacoteSideBar" observes="viewencontreseupacoteSideBar"  />
+  </menupopup>
+  
+  <keyset id="mainKeyset">
+    <key id="key_openencontreseupacoteSideBar" command="viewencontreseupacoteSideBar"
+         key="&openencontreseupacoteSideBar.commandkey;" 
+         modifiers="&openencontreseupacoteSideBar.modifierskey;" />
+  </keyset>
+  
+  <broadcasterset id="mainBroadcasterSet"> 
+    <broadcaster id="viewencontreseupacoteSideBar" 
+                 label="&encontreseupacotesidebar.title;"
+                 autoCheck="false"
+                 type="checkbox"
+                 group="sidebar"
+                 sidebarurl="chrome://encontreseupacote/content/encontreseupacotePage.xul"
+                 sidebartitle="&encontreseupacotesidebar.title;"
+                 oncommand="toggleSidebar('viewencontreseupacoteSideBar');" />
+  </broadcasterset>
+  
+   <statusbar id="status-bar">
+   <statusbarpanel id="status_bar_encontreseupacote_panel"
+     tooltiptext="Rastreamento de pacotes dos correios"
+     onclick="encontrePacoteClick(event);"  
+     class="statusbarpanel-menu-iconic" context="encontreseupacote_StatusContextMenu"/>
+
+     <menupopup id="encontreseupacote_StatusContextMenu" onpopupshowing="">
+         <menuitem 
+         	label="Ver atalhos" 
+         	oncommand="openShortcuts()"
+         	/>
+         
+         <menuseparator/>
+         
+         <menuitem 
+         	label="Opções" 
+         	oncommand="openPrefs();"/>
+     </menupopup>
+
+ </statusbar>
+
+
+</overlay>
+
+

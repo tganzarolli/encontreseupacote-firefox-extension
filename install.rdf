@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>encontreseupacote@encontreseupacote.com.br</em:id>
+    <em:version>1.1</em:version>
+    
+    <em:name>Encontre seu Pacote</em:name>
+    <em:description>Rastreie seus pacotes e encomendas dos Correios brasileiros de forma facil.</em:description>
+    <em:creator>Thiago Ganzarolli</em:creator>
+    <em:developer>Thiago Ganzarolli</em:developer>
+    <em:iconURL>chrome://encontreseupacote/skin/encontre.ico</em:iconURL>
+	<em:optionsURL>chrome://encontreseupacote/content/prefPaneWindow.xul</em:optionsURL>       
+    <em:homepageURL>http://www.encontreseupacote.com.br</em:homepageURL>   
+    
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>3.7a6pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+      
+  </Description>
+</RDF>

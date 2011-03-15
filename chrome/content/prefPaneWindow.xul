@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow id="encontreseupacotePreferences" title="Opções Encontre Seu Pacote"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <prefpane id="pane1" label="Preferências de usuário">
+    <preferences>
+      <preference id="pref_auto_login" name="extensions.encontreseupacote.auto_login" type="bool"/>
+      <preference id="pref_email" name="extensions.encontreseupacote.email" type="string"/>
+    </preferences>
+		<vbox align="center">    
+			<hbox>
+				<label control="email" value="Email (usuário)"/>
+		  		<textbox preference="pref_email" id="email" width="300"/>
+			</hbox>
+			<checkbox label="Efetuar login automaticamente quando aberto o plugin?" preference="pref_auto_login" id="auto_login" />
+			<hbox>
+				<description id="infoLoginAutomatico" style="color:red;text-align:center;" width="350" height="28">
+					Opção funciona após o primeiro login no aplicativo. Antes de desmarcá-lo, efetue o logout. 
+				</description>
+			</hbox>
+		</vbox>
+  </prefpane>
+</prefwindow>

@@ -1,0 +1,14 @@
+#status_bar_encontreseupacote_panel{
+  list-style-image: url("chrome://encontreseupacote/skin/encontreSmall.ico");
+  cursor: hand;
+}
+
+/*@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+hbox#browser { 
+    direction: rtl !important;
+     }         
+hbox#browser > vbox {
+    direction: ltr !important; 
+    }
+
+*/
